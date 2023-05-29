@@ -1,6 +1,7 @@
 
-### Weather App
+# Weather App
 This is a web application that displays weather information for different cities. It retrieves data from a backend API and presents it to the user in a user-friendly interface.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
 ## Features
 *Display a list of cities
@@ -13,10 +14,6 @@ This is a web application that displays weather information for different cities
 *Express: Backend framework for building the API
 *MongoDB: Database for storing city and forecast data
 *OpenWeatherMap API: External API for retrieving weather data
-
-# WeatherClient
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
 ## Development server
 
