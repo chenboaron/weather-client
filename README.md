@@ -1,3 +1,19 @@
+
+### Weather App
+This is a web application that displays weather information for different cities. It retrieves data from a backend API and presents it to the user in a user-friendly interface.
+
+## Features
+*Display a list of cities
+*Show the current temperature for each city
+*Clicking on a city displays the forecast for the next five days in an accordion-style display
+
+## Technologies Used
+*Angular: Frontend framework for building the user interface
+*Node.js: Backend runtime environment
+*Express: Backend framework for building the API
+*MongoDB: Database for storing city and forecast data
+*OpenWeatherMap API: External API for retrieving weather data
+
 # WeatherClient
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
