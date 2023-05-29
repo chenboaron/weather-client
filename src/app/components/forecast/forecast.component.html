@@ -1,0 +1,21 @@
+<div class="allPage">
+  <h1>Weather App</h1>
+  <mat-accordion>
+    <mat-expansion-panel *ngFor="let cf of cityForecas" (opened)="panelOpenState = true"
+      (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{cf.city.city_name}}
+        </mat-panel-title>
+        <mat-panel-description>
+          Latitude: {{cf.city.city_latitude}} Longitude: {{cf.city.city_longitude}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p *ngFor="let f of cf.forecasts">
+        <span>Date: {{getDate(f.dt)}}</span>
+        <br>
+        <span>Temperature: {{f.temp}}</span>
+      </p>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
